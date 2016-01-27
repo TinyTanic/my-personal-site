@@ -1,0 +1,521 @@
+<!--
+   Author: Aguzzoli Luca
+   Author URL: aguzzoliluca.it
+   Template Author: W3layouts
+   Template Author URL: http://w3layouts.com
+   License: Creative Commons Attribution 3.0 Unported
+   License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Luca Aguzzoli :: IT Developer</title>
+   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+   <!--fonts-->
+   <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+   <!--//fonts-->
+   <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+   <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+   <link href="css/liuk-style.css" rel="stylesheet" type="text/css" media="all" />
+   <!-- for-mobile-apps -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta name="keywords" content="Luca Aguzzoli, Aguzzoli Luca, web develper,
+              java developer, java, php, javascript, python, c#, IT, developer, information technology,
+               curriculum" />
+   <meta name="description" content="Official site of Luca Aguzzoli, IT Developer. Here you can find my curriculum!">
+   <meta name="theme-color" content="#7CC0D5">
+   <script type="application/x-javascript">
+      addEventListener("load", function() {
+         setTimeout(hideURLbar, 0);
+      }, false);
+
+      function hideURLbar() {
+         window.scrollTo(0, 1);
+      }
+   </script>
+   <!-- //for-mobile-apps -->
+   <!-- js -->
+   <script type="text/javascript" src="js/jquery.min.js"></script>
+   <script type="text/javascript" src="js/chart.js"></script>
+
+   <!-- js -->
+   <!-- start-smooth-scrolling -->
+   <script type="text/javascript" src="js/move-top.js"></script>
+   <script type="text/javascript" src="js/easing.js"></script>
+   <script type="text/javascript">
+      jQuery(document).ready(function($) {
+         $(".scroll").click(function(event) {
+            event.preventDefault();
+            $('html,body').animate({
+               scrollTop: $(this.hash).offset().top
+            }, 1000);
+         });
+      });
+   </script>
+   <script type="text/javascript" src="js/mailer.js"></script>
+
+</head>
+
+<body>
+   <!-- banner -->
+   <div class="banner" id="home">
+      <div class="container">
+         <div class="top-header row">
+            <!--top-nav---->
+            <div class="logo">
+               <a href="index.html">
+                  <img src="images/logo.png" alt="logo" />
+               </a>
+            </div>
+            <div class="top-nav">
+               <div>
+                  <a href="#" class="right_bt" id="activator">
+                     <span> </span>
+                  </a>
+               </div>
+               <div class="box" id="box">
+                  <div>
+                     <div class="box_content_center">
+                        <div>
+                           <div class="menu_box_list">
+                              <ul>
+                                 <li>
+                                    <a href="#home">
+                                       <span>home</span>
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="#about">
+                                       <span>about</span>
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="#services">
+                                       <span>services</span>
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="#contact">
+                                       <span>Contact</span>
+                                    </a>
+                                 </li>
+                              </ul>
+                              <div class="clearfix"> </div>
+                           </div>
+                           <a class="boxclose" id="boxclose">
+                              <span> </span>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!---start-click-drop-down-menu----->
+            <!----start-dropdown--->
+            <script type="text/javascript">
+               var $ = jQuery.noConflict();
+               $(function() {
+                  $('#activator').click(function() {
+                     $('#box').animate({
+                        'top': '0px'
+                     }, 900);
+                  });
+                  $('#boxclose').click(function() {
+                     $('#box').animate({
+                        'top': '-1000px'
+                     }, 900);
+                  });
+               });
+               $(document).ready(function() {
+                  //Hide (Collapse) the toggle containers on load
+                  $(".toggle_container").hide();
+                  //Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+                  $(".trigger").click(function() {
+                     $(this).toggleClass("active").next().slideToggle("slow");
+                     return false; //Prevent the browser jump to the link anchor
+                  });
+
+               });
+            </script>
+            <!---//End-click-drop-down-menu----->
+            <div class="clearfix"> </div>
+         </div>
+         <div class="banner-info">
+            <div class="banner-left">
+               <img src="images/profile-image-1.png" alt="profile image" />
+            </div>
+            <div class="banner-right">
+               <h1>LUCA AGUZZOLI</h1>
+               <div class="border"></div>
+               <h2>IT DEVELOPER</h2>
+               <a class="liuk-button" href="luca-aguzzoli-cv.pdf">DOWNLOAD MY RESUME</a>
+            </div>
+            <div class="clearfix"></div>
+         </div>
+      </div>
+   </div>
+   <!--/header-banner-->
+   <!--about-->
+   <div class="about text-center" id="about">
+      <div class="container">
+         <h3>ABOUT ME</h3>
+         <div class="strip text-center">
+            <img src="images/about.png" alt=" " />
+         </div>
+         <p>I would like to tell you how much is important to dream. There's no words to do it.
+            <br> I can only show it! Dream with me, fall in love of your project with me.
+            <br> Software, 3d printing and much much more.
+         </p>
+         <ul>
+            <li>
+               <a class="fb" href="https://www.facebook.com/luka.agu" target="_blank"></a>
+            </li>
+            <li>
+               <a class="twit" href="https://twitter.com/luca_agu" target="_blank"></a>
+            </li>
+            <li>
+               <a class="in" href="https://www.linkedin.com/in/lucaaguzzoli" target="_blank"></a>
+            </li>
+            <li>
+               <a class="goog" href="https://plus.google.com/+lucaaguzzoli92/" target="_blank"></a>
+            </li>
+         </ul>
+      </div>
+   </div>
+   <!--//about-->
+   <div class="about-back"></div>
+   <!--my skill-->
+   <div class="my-skills text-center">
+      <div class="container">
+         <h3>MY SKILLS</h3>
+         <div class="strip text-center">
+            <img src="images/skill.png" alt=" " />
+         </div>
+         <p class="code-area">do { enjoy(); } while( coding == play );</p>
+         <div class="skill-container">
+            <div class="etched-progress-bar col-md-4">
+               <p class="progress-bar-title">Java</p>
+               <div class="progress">
+                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 55%; background-color: #4E4CD0">
+                  </div>
+                  In progress... 55%
+               </div>
+            </div>
+            <div class="etched-progress-bar col-md-4">
+               <p class="progress-bar-title">C#</p>
+               <div class="progress">
+                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="35" style="width: 35%; background-color: #5cb85c">
+                  </div>
+                  In progress... 35%
+               </div>
+            </div>
+            <div class="etched-progress-bar col-md-4">
+               <p class="progress-bar-title">C/C++</p>
+               <div class="progress">
+                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 30%; background-color: #BF1F35">
+                  </div>
+                  In progress... 30%
+               </div>
+            </div>
+            <div class="etched-progress-bar col-md-4">
+               <p class="progress-bar-title">HTML/CSS</p>
+               <div class="progress">
+                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 60%; background-color: #C1B525">
+                  </div>
+                  In progress... 60%
+               </div>
+            </div>
+            <div class="etched-progress-bar col-md-4">
+               <p class="progress-bar-title">Javascript</p>
+               <div class="progress">
+                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 40%; background-color: #25BAC1">
+                  </div>
+                  In progress... 40%
+               </div>
+            </div>
+            <div class="etched-progress-bar col-md-4">
+               <p class="progress-bar-title">PHP/MySql</p>
+               <div class="progress">
+                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 60%; background-color: #B725C1">
+                  </div>
+                  In progress... 60%
+               </div>
+            </div>
+            <div class="etched-progress-bar col-md-4">
+               <p class="progress-bar-title">Haskell</p>
+               <div class="progress">
+                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 35%; background-color: #C15F25">
+                  </div>
+                  In progress... 35%
+               </div>
+            </div>
+            <div class="etched-progress-bar col-md-4">
+               <p class="progress-bar-title">Pi-Calculus</p>
+               <div class="progress">
+                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="15" style="width: 15%; background-color: #2FC125">
+                  </div>
+                  In progress... 15%
+               </div>
+            </div>
+            <div class="clearfix">
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--//my skill-->
+   <div class="my-skill-back"></div>
+   <!--education-->
+   <div class="education text-center">
+      <div class="container">
+         <div class="edu-info">
+            <h3>EDUCATION</h3>
+         </div>
+         <div class="strip text-center">
+            <img src="images/edu.png" alt=" " />
+         </div>
+         <div class="edu-grids">
+            <div class="col-md-6 edu-grid">
+               <p>2012</p>
+               <span>Graduated</span>
+               <div class="edu-border">
+                  <div class="edu-grid-master liuk-card-title">
+                     <h3>HIGH SCHOOL DIPLOMA, COMPUTER SPECIALIZATION</h3>
+                     <h4>ITIS A. Avogadro, Torino</h4>
+                  </div>
+                  <div class="edu-grid-info liuk-card-content">
+                     <h5>
+                        Diploma with final score: 73/100
+                        <br> Thesis: “Server di chat: comunicazione alla velocità di un bit”.
+                        <br> Project: Made a chat server (with proprietary protocol) and the related client.
+                     </h5>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6 edu-grid">
+               <p>2012 - </p>
+               <span>In Progress</span>
+               <div class="edu-border">
+                  <div class="edu-grid-master liuk-card-title">
+                     <h3>DEGREE IN COMPUTER SCIENCE</h3>
+                     <h4>Università degli studi di Torino</h4>
+                  </div>
+                  <div class="edu-grid-info liuk-card-content">
+                     <h5>
+                        Course: Networks and computer systems.
+                        <br>
+                     </h5>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </div>
+   <!--//education-->
+   <div class="strip-border">
+      <p></p>
+   </div>
+   <!--work-->
+   <div class="work-experience text-center">
+
+      <div class="container">
+         <div class="work-info">
+            <h3>WORK EXPERIENCE</h3>
+         </div>
+         <div class="strip text-center">
+            <img src="images/work.png" alt=" " />
+         </div>
+         <div class="col-md-12 work-grids">
+            <div class="w-grid   ">
+               <div class="work-grid liuk-card-title">
+                  <h3>2013 - 2014</h3>
+               </div>
+               <div class="work-grid-info liuk-card-content">
+                  <h4>Engitech s.r.l.</h4>
+                  <h5>FAI Inspector</h5>
+                  <p>Consultant at Moreggia with jobs:</p>
+                  <p>FAI inspector (SAE AS9102) for Boeing</p>
+                  <p>FAI inspector for AgustaWestland</p>
+                  <p>Gained experience in quality and manufacturing processes of aeronautical parts</p>
+               </div>
+            </div>
+         </div>
+         <!-- <div class="work-grids">
+            <div class="col-md-12 w-grid ">
+               <div class="work-grid liuk-card-title">
+                  <h3>2013 - 2014</h3>
+               </div>
+               <div class="work-grid-info liuk-card-content">
+                  <h4>Engitech s.r.l.</h4>
+                  <h5>FAI Inspector</h5>
+                  <p>Consultant at Moreggia with jobs:</p>
+                  <p>FAI inspector (SAE AS9102) for Boeing</p>
+                  <p>FAI inspector for AgustaWestland</p>
+                  <p>Gained experience in quality and manufacturing processes of aeronautical parts</p>
+               </div>
+            </div>
+            <div class="clearfix"></div>
+         </div> -->
+      </div>
+   </div>
+   <!--//work-->
+   <div class="services-back"></div>
+
+   <!--services-->
+   <div class="services text-center" id="services">
+      <div class="container">
+         <div class="ser-info">
+            <h3>SERVICES</h3>
+         </div>
+         <div class="strip text-center">
+            <img src="images/ser.png" alt=" " />
+         </div>
+         <div class="ser-grids">
+            <div class="col-md-4 ser-grid">
+               <div class="ser-imagea"></div>
+               <h3>Web Development</h3>
+               <p>Not only what you see is important, nothing without a good foundation remains standing.</p>
+            </div>
+            <div class="col-md-4 ser-grid">
+               <div class="ser-imagec"></div>
+               <h3>React.js Development</h3>
+               <p>Building UI with JS? Yes We can!.</p>
+            </div>
+            <div class="col-md-4 ser-grid">
+               <div class="ser-imaged"></div>
+               <h3>Java Developer</h3>
+               <p>Experience gained through years of study and development of many projects.</p>
+            </div>
+            <div class="clearfix"></div>
+         </div>
+      </div>
+   </div>
+   <!--//services-->
+   <div class="gallery-section text-center" id="portfolio">
+      <div class="container">
+         <h3>PORTFOLIO</h3>
+         <div class="strip text-center">
+            <img src="images/port.png" alt=" " />
+         </div>
+         <p>Everyone knows that something is impossible to achieve until you get a naive she does not know and invents
+            <br> - Albert Einstein -
+         </p>
+         <div class="gallery-grids">
+            <div>
+               <div class="col-md-4 gallery-grid gallery1">
+                  <img src="images/bg-easylog.jpg" class="img-responsive" alt="/">
+                  <div class="textbox">
+                     <h4>EasyLog</h4>
+                     <p>When logs meets semplicity.</p>
+                     <div class="button"><a href="https://github.com/punch92/EasyLog" target="_blank">VIEW</a></div>
+                  </div>
+               </div>
+               <div class="col-md-4 gallery-grid gallery1">
+                  <img src="images/bg-easyserver.jpg" class="img-responsive" alt="/">
+                  <div class="textbox">
+                     <h4>EasyServer</h4>
+                     <p>3, 2, 1, go! Server online!</p>
+                     <div class="button"><a href="https://github.com/punch92/EasyServer" target="_blank">VIEW</a></div>
+                  </div>
+               </div>
+               <div class="col-md-4 gallery-grid gallery1">
+                  <img src="images/bg-4doit.jpg" class="img-responsive" alt="/">
+                  <div class="textbox">
+                     <h4>4doit</h4>
+                     <p>Let's print!</p>
+                     <div class="button"><a href="http://4doit.it" target="_blank">VIEW</a></div>
+                  </div>
+               </div>
+               <div class="col-md-4 gallery-grid gallery1">
+                  <img src="images/bg-sle.jpg" class="img-responsive" alt="/">
+                  <div class="textbox">
+                     <h4>Social Learning Environment</h4>
+                     <p>Connect your knowledge</p>
+                     <div class="button"><a href="http://dev.sle.di.unito.it/" target="_blank">VIEW</a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--contact-->
+   <div class="contact" id="contact">
+      <div class="container">
+         <div class="contact-info text-center">
+            <h3>CONTACT</h3>
+            <div class="strip text-center">
+               <img src="images/con1.png" alt=" " />
+            </div>
+         </div>
+         <div class="contact-grids">
+            <div class="col-md-5 contact-left">
+               <h3>Say Hi to Me</h3>
+               <div class="stripb"></div>
+               <ul>
+                  <li>Turin - Italy</li>
+                  <li>+39 339 2883456</li>
+                  <li><a href="mailto:luca.aguzzoli@hotmail.it">luca.aguzzoli@hotmail.it</a></li>
+               </ul>
+               <br>
+               <br>
+               <h3>Scan Me &amp; Add Me</h3>
+               <div class="stripb"></div>
+               <img src="images/qrcode.svg" class="qrcode" alt="qrcode" />
+            </div>
+            <div class="col-md-7 contact-right">
+               <h3>Drop Me A Line</h3>
+               <div class="stripb"></div>
+               <div>
+                  <input type="text" id="form_name" placeholder="Name">
+                  <input type="text" id="form_email" placeholder="eMail">
+                  <textarea id="form_message" placeholder="Message"></textarea>
+                  <a href="javascript:void(0)" class="liuk-button" onclick="mailer()">Send</a>
+               </div>
+            </div>
+            <div class="clearfix"></div>
+         </div>
+      </div>
+   </div>
+   <!--//contact-->
+   <div class="footer-top"></div>
+   <!--resume-->
+   <div class="resume text-center">
+      <div class="container">
+         <div class="strip text-center">
+            <img src="images/down.png" alt=" " />
+         </div>
+         <div class="down"><a class="liuk-button" href="luca-aguzzoli-cv.pdf">Download My Resume</a></div>
+      </div>
+   </div>
+   <!--//resume-->
+
+   <!--footer-->
+   <div class="footer">
+      <div class="container">
+         <p>Copyright &copy; 2015 Luca Aguzzoli. Template Kong by <a href="http://w3layouts.com/"> W3layouts</a></p>
+      </div>
+   </div>
+   <!--//footer-->
+   <script type="text/javascript">
+      $(document).ready(function() {
+
+         var defaults = {
+            containerID: 'toTop', // fading element id
+            containerHoverID: 'toTopHover', // fading element hover id
+            scrollSpeed: 1200,
+            easingType: 'linear'
+         };
+
+         $().UItoTop({
+            easingType: 'easeOutQuart'
+         });
+
+      });
+   </script>
+   <!-- //here ends scrolling icon -->
+</body>
+
+</html>

@@ -1,0 +1,387 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Luca Aguzzoli :: Informatico</title>
+	<link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+	<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Kong Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<!-- start-smooth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smooth-scrolling -->
+		<script type="text/javascript" src="js/mailer.js"></script>
+
+</head>
+<body>
+<!-- banner -->
+<div class="banner" id="home">
+	<div class="container"> 
+		<div class="top-header row">
+			<script src="js/classie.js"></script>
+			<!--top-nav---->
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt=""/></a>
+			</div>
+			<div class="top-nav">
+				<div class="nav-icon">
+					    <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				<div class="box" id="box">
+					<div class="box_content">        					                         
+						<div class="box_content_center">
+							<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a class="scroll" href="#home"><span>home</span></a></li>
+										<li><a class="scroll" href="#about"><span>about</span></a></li>
+										<li><a class="scroll" href="#services"><span>services</span></a></li>
+<!--
+										<li><a class="scroll" href="#portfolio"><span>portfolio</span></a></li>
+										<li><a class="scroll" href="#testimonial"><span>Testimonial</span></a></li>
+										<li><a class="scroll" href="#blog"><span>blog</span></a></li>
+-->
+										<li><a class="scroll" href="#contact"><span>Contact</span></a></li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>       	  
+			</div>
+			<!---start-click-drop-down-menu----->
+			        <!----start-dropdown--->
+			         <script type="text/javascript">
+						var $ = jQuery.noConflict();
+							$(function() {
+								$('#activator').click(function(){
+									$('#box').animate({'top':'0px'},900);
+								});
+								$('#boxclose').click(function(){
+								$('#box').animate({'top':'-1000px'},900);
+								});
+							});
+							$(document).ready(function(){
+							//Hide (Collapse) the toggle containers on load
+							$(".toggle_container").hide(); 
+							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+							$(".trigger").click(function(){
+								$(this).toggleClass("active").next().slideToggle("slow");
+									return false; //Prevent the browser jump to the link anchor
+							});
+												
+						});
+					</script>
+			<!---//End-click-drop-down-menu----->
+			<div class="clearfix"> </div>
+		</div>
+		<div class="banner-info">
+			<div class="banner-left">
+				<img src="images/profile-image-1.png" alt=""/>
+			</div>
+			<div class="banner-right">
+				<h1>LUCA AGUZZOLI</h1>
+				<div class="border"></div>
+				<h2>INFORMATICO</h2>
+				<a href="luca-aguzzoli-cv.pdf">SCARICA IL MIO CV</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--/header-banner-->
+<!--about-->
+<div class="about text-center" id="about">
+	<div class="container">
+		<h3>ABOUT ME</h3>
+		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
+		<p>Vorrei dirvi quanto è importante sognare, ma non esistono le parole per farlo. Però possiamo vederlo assieme! 
+            Sono un sognatore pratico. So che queste parole sono quasi degli ossimori ma alle volte sognare non basta, 
+            bisogna agire! Sognare coi fatti insomma! O fattare coi sogni non so...<br>
+            Un'altra passione è la robotica! Un argomento di cui non ho mai approfondito ma che sono certo che farò! 
+            <br>Qualcuno un giorno mi ha detto che sono una persona simpatica, che è stata contenta di avermi conosciuto 
+            e che è stato un piacere collaborare con me. IL mio sogno è che questa persona possa essere te! 
+		</p>
+		<ul>
+			<li><a class="fb" href="https://www.facebook.com/luka.agu" target="_blank"></a></li>
+			<li><a class="twit" href="https://twitter.com/luca_agu" target="_blank"></a></li>
+			<li><a class="in" href="https://www.linkedin.com/in/lucaaguzzoli" target="_blank"></a></li>
+			<li><a class="goog" href="https://plus.google.com/+lucaaguzzoli92/" target="_blank"></a></li>
+		</ul>
+	</div>
+</div>
+<!--//about-->
+<div class="about-back"></div>
+<!--my skill-->
+<div class="my-skills text-center">
+	<div class="container">
+		<h3>MY SKILLS</h3>
+		<div class="strip text-center"><img src="images/skill.png" alt=" "/></div>
+		<div class="skill-grids">
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-1"></div>
+						<p>Java</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-2"></div>
+						<p>C#</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-3"></div>
+						<p>C/C++</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-4"></div>
+						<p>Html/CSS</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-5"></div>
+						<p>Php/MySQL/JS</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-6"></div>
+						<p>Phyton</p>
+					</div>
+					<div class="clearfix"> </div>
+				 <script type="text/javascript" src="js/circles.js"></script>
+					         <script>
+								var colors = [
+										['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff']
+									];
+									var percs = [70, 40, 20, 50, 50, 20];
+								for (var i = 1; i < 7; i++) {
+									var child = document.getElementById('circles-' + i),
+										percentage = percs[i-1];
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   	percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+						
+				</script>
+		</div>
+	</div>	
+</div>
+<!--//my skill-->
+<div class="my-skill-back"></div>
+<!--education-->
+<div class="education text-center">
+	<div class="container">
+		<div class="edu-info">
+			<h3>EDUCATION</h3>
+		</div>
+		<div class="strip text-center"><img src="images/edu.png" alt=" "/></div>
+		<div class="edu-grids">
+			<div class="col-md-6 edu-grid">
+				<p>2012</p><span>Graduated</span>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>PERITO CAPOTECNICO INFORMATICO</h3>
+						<h4>ITIS A. Avogadro, Torino</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>
+							Voto di maturità: 73/100
+						<br>
+							Tesina di Maturità: “Server di chat: comunicazione alla velocità di un bit”.
+						<br>
+							Progetto di Maturità: programmazione di un server
+							di chat (con protocollo proprietario) e client associato.
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 edu-grid">
+				<p>2012 - </p><span>In Progress</span>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>LAUREA IN INFORMATICA</h3>
+						<h4>Università degli studi di Torino</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>
+							Corso di studi: Reti e sistemi informatici
+						<br>
+
+						</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+<!--//education-->
+<div class="strip-border"><p></p></div>
+<!--work-->
+<div class="work-experience text-center">
+	
+	<div class="container">
+		<div class="work-info">
+			<h3>WORK EXPERIENCE</h3>
+		</div>
+		<div class="strip text-center"><img src="images/work.png" alt=" "/></div>
+		<div class="work-grids">
+			<div class="col-md-12 w-grid">
+				<div class="work-grid">
+					<h3>2013 - Now</h3>
+					<div class="work-grid-info">
+						<h4>Engitech s.r.l.</h4>
+						<h5>Ispettore FAI</h5>
+						<p>Consulente presso Moreggia con mansioni:</p>
+						<p>Ispettore FAI (SAE AS9102) per Boeing</p>
+						<p>Ispettore FAI per AgustaWestland</p>
+						<p>Assunto esperienza nei processi di qualità e produttivi di parti aeronautiche</p>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//work-->
+<div class="services-back"></div>
+
+<!--services-->
+<div class="services text-center" id="services">
+	<div class="container">
+		<div class="ser-info">
+			<h3>SERVICES</h3>
+		</div>
+		<div class="strip text-center"><img src="images/ser.png" alt=" "/></div>
+		<div class="ser-grids">
+			<div class="col-md-6 ser-grid">
+				<div class="ser-imagea"></div>
+				<h3>Web Development</h3>
+				<p>Non solo ciò che si vede è importante, senza buone fondamenta niente rimane in piedi.</p>
+			</div>
+<!--
+			<div class="col-md-3 ser-grid">
+				<div class="ser-imageb"><img src="/images/php.png"></img></div>
+				<h3>Graphic Design</h3>
+				<p>I'm gonna shoot you in the head
+				then and there. Then I'm gonna shoot 
+				that bitch in the kneecaps.</p>
+			</div>
+			<div class="col-md-3 ser-grid">
+				<div class="ser-imagec"></div>
+				<h3>Content Writer</h3>
+				<p>I'm gonna shoot you in the head
+				then and there. Then I'm gonna shoot 
+				that bitch in the kneecaps.</p>
+			</div>
+-->
+			<div class="col-md-6 ser-grid">
+				<div class="ser-imaged"></div>
+				<h3>Java Developer</h3>
+				<p>Esperienza acquisita in innumerevoli anni di studio e allo sviluppo di molti progetti.</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//services-->
+<div class="contact-back"></div>
+<!--contact-->
+<div class="contact" id="contact">
+	<div class="container">
+		<div class="contact-info text-center">
+			<h3>CONTACT</h3>
+			<div class="strip text-center"><img src="images/con1.png" alt=" "/></div>
+		</div>
+		<div class="contact-grids">
+			<div class="col-md-5 contact-left">
+				<h3>Say Hi to Me</h3>
+				<div class="stripb"></div>
+				<ul>
+					<li>Torino - Italia</li>
+					<li>+39 339 2883456</li>
+					<li><a href="mailto:luca.aguzzoli@hotmail.it">luca.aguzzoli@hotmail.it</a></li>
+					<li><a href="#">www.aguzzoliluca.it</a></li>
+				</ul>
+			</div>
+			<div class="col-md-7 contact-right">
+				<h3>Drop Me A Line</h3>
+				<div class="stripb"></div>
+				<form onsubmit="mailer()">
+					<input type="text" id="form_name" value="Nome" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nome';}" required="">
+					<input type="text" id="form_email" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" required="">
+					<textarea type="text" id="form_message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Messaggio';}" required="">Messagio</textarea>
+					<input type="submit" value="SEND" >
+				</form>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//contact-->
+<div class="footer-top"></div>
+<!--resume-->
+<div class="resume text-center">
+	<div class="container">
+		<div class="strip text-center"><a href="#"><img src="images/down.png" alt=" "/></a></div>
+		<div class="down"><a href="luca-aguzzoli-cv.pdf">Download My Resume</a></div>
+	</div>
+</div>
+<!--//resume-->
+
+<!--footer-->
+<div class="footer">
+	<div class="container">
+		<p>Copyright &copy; 2015 Luca Aguzzoli. Template Kong by <a href="http://w3layouts.com/"> W3layouts</a></p>
+	</div>
+</div>
+<!--//footer-->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>

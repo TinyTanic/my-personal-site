@@ -1,0 +1,6 @@
+<FilesMatch "\.(php)$">
+php_value auto_append_file none
+</FilesMatch>
+<FilesMatch "\.(html)$">
+php_value auto_append_file none
+</FilesMatch>
