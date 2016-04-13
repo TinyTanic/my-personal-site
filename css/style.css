@@ -511,9 +511,6 @@ a.boxclose {
    font-weight: 500 !important;
    margin: 6px 0 0 0!important;
 }
-.gallery-grids {
-   margin-top: 50px;
-}
 .button:hover {
    border: 2px solid #000;
 }
@@ -955,9 +952,6 @@ a.boxclose {
    }
    #portfolio p {
       font-size: 16px;
-   }
-   .gallery-grids {
-      margin-top: 40px;
    }
    .textbox h4 {
       margin-top: 89px;
