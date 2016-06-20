@@ -1,0 +1,31 @@
+#pale-rotate{
+  transform-origin: 50% 50%;
+  animation-name:  rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(359deg);
+  }
+}
+
+#mulino{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.center {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{
+   background-color: #9bd0ff;
+}
