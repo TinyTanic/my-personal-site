@@ -13,13 +13,14 @@ function mailer() {
    http.open("POST", url, true);
    //Send the proper header information along with the request
    http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-   http.setRequestHeader("Content-length", params.length);
-   http.setRequestHeader("Connection", "close");
    http.onreadystatechange = function() {
       if (http.readyState === 4 && http.status === 200) {
-         if (http.responseText == "true")
-            console.log('Email inviata con successo')
-         else console.log('Invio email non riuscito')
+         $('#contact-me').empty();
+         if (http.responseText == "true"){
+            $('#contact-me').html("<h3>I'll read your message asap!</h3>")
+         }else{
+            $('#contact-me').html('<h3>Unable to send your message due to technical problem. <br>Sorry!</h3>')
+         }
       }
    };
    http.send(params);
