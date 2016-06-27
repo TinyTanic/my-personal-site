@@ -1,0 +1,45 @@
+.center {
+   width: 500px;
+}
+.playground-title {
+   font-size: 3em;
+   font-family: Raleway, sans-serif;
+   margin-top: 2em;
+   margin-left: 2em;
+}
+.playground-title span {
+   display: block;
+   color: #247BA0;
+}
+body {
+   background-color: #F4F1BB;
+   overflow: hidden;
+}
+#waves {
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+   margin-left: -8px;
+   bottom: -300px;
+}
+#wave1{
+   animation: upndown 3s infinite ease-in-out alternate;
+}
+
+#wave2{
+   animation: upndown 3s infinite ease-in-out alternate;
+   animation-delay: 1s;
+}
+
+#wave3{
+   animation: upndown 3s infinite ease-in-out alternate;
+   animation-delay: 3s;
+}
+
+@keyframes upndown {
+   from {
+   }
+   to {
+      transform: translateY(-100px);
+   }
+}
