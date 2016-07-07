@@ -1,0 +1,48 @@
+
+body {
+   background-color: #334e75;
+   overflow: hidden;
+}
+
+#waves {
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+   margin-left: -8px;
+   /*bottom: -300px;*/
+}
+#wave1 {
+   animation: upndown1 2.5s infinite ease-in-out alternate;
+}
+#wave2 {
+   animation: upndown2 3.5s infinite ease-in-out alternate;
+}
+#wave3 {
+   animation: upndown3 3s infinite ease-in-out alternate;
+}
+@keyframes upndown1 {
+   to {
+      transform: translateX(200px);
+   }
+}
+@keyframes upndown2 {
+   to {
+      transform: translateX(200px) translateY(100px);
+   }
+}
+@keyframes upndown3 {
+   to {
+      transform: translateX(-250px) translateY(100px);
+   }
+}
+
+
+#boat{
+   transform: translateY(50px) scale(0.5);
+   animation: surf 10s infinite linear alternate;
+}
+@keyframes surf{
+   to{
+      transform: translateY(50px) translateX(1000px) scale(0.5);
+   }
+}

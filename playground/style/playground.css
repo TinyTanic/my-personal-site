@@ -15,31 +15,54 @@ body {
    background-color: #F4F1BB;
    overflow: hidden;
 }
+
+#shell {
+   transform: scale(0.1) translateY(100px);
+}
+
 #waves {
    width: 100%;
    position: absolute;
    bottom: 0;
    margin-left: -8px;
-   bottom: -300px;
+   /*bottom: -300px;*/
 }
-#wave1{
-   animation: upndown 3s infinite ease-in-out alternate;
+#wave0 {
+   animation: upndown0 5s infinite ease-in-out;
+   transform: translateY(-250px);
 }
-
-#wave2{
-   animation: upndown 3s infinite ease-in-out alternate;
+#wave1 {
+   animation: upndown1 2.5s infinite ease-in-out alternate;
+   transform: translateY(-250px);
+}
+#wave2 {
+   animation: upndown2 2.5s infinite ease-in-out alternate;
+   transform: translateY(-50px);
+   animation-delay: 0.5s;
+}
+#wave3 {
+   animation: upndown3 2.5s infinite ease-in-out alternate;
+   transform: translateY(100px);
    animation-delay: 1s;
 }
-
-#wave3{
-   animation: upndown 3s infinite ease-in-out alternate;
-   animation-delay: 3s;
-}
-
-@keyframes upndown {
-   from {
-   }
+@keyframes upndown0 {
    to {
       transform: translateY(-100px);
+      opacity: 0.2;
+   }
+}
+@keyframes upndown1 {
+   to {
+      transform: translateY(0px);
+   }
+}
+@keyframes upndown2 {
+   to {
+      transform: translateY(200px);
+   }
+}
+@keyframes upndown3 {
+   to {
+      transform: translateY(400px);
    }
 }
